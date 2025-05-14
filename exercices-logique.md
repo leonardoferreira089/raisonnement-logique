@@ -38,7 +38,7 @@ Réponse : 🍎 = 6, 🍌 = 4, 🍊 = 8.
 print(f"Il reste {reste} moutons vivants.")  # Réponse: pomme = 6 Banane = 4 Orange = 8
 ```
 </details>
-<!-- Exercice 03 -->
+<!-- Exercice 02 -->
 <details>
 <summary><strong>🔹 Exercice 02</strong></summary>
 
@@ -65,7 +65,45 @@ Entre dans la pièce et vérifie :
 ❄️ Froide et éteinte ? → C.
 ```
 
+</details>
+<!-- Exercice 03 -->
+<details>
+<summary><strong>🔹 Exercice 03</strong></summary>
 
+### ✏️ Énoncé : Deuxpères et deux fils
+Deux pères et deux fils vont à la pêche. Ils y restent toute la journée et
+n'attrapent que 3 poissons. Un des pères dit : "C'est assez pour nous tous,
+nous en prendrons un chacun". Comment cela peut-il être possible ?
+### 💡 Réponse
+```python
+# Solution
+Le père, le fils et le petit-fils.
+A = Le père 
+B = Le fils
+C = Le petit-fils
+Les deux pères = A et B('le père de C')
+Les deux fils = B('le fils de A') et C('le fils de B')
+
+```
+
+</details>
+<!-- Exercice 04-->
+<details>
+<summary><strong>🔹 Exercice 04</strong></summary>
+
+### ✏️ Énoncé : Deuxpères et deux fils
+Arrivé en ville, fatigué de son voyage, Marc se repose dans la chambre 302 de son hôtel. Il souhaite rencontrer ses deux amis, Lucien et Jacques. Malheureusement ils logent tous dans des hôtels différents : l'hôtel de la poste, le Saint Hubert et le Paradis. Ils échangent leur numéro de chambre : 106, 214 et donc 302. Finalement, il est décidé que le client de la chambre 106 du Paradis rejoint Lucien à la réception de son hôtel, l'hôtel de la Poste.
+
+Indiquez dans quelle chambre et quel hôtel loge chacun des trois amis.
+### 💡 Réponse
+```python
+# Solution
+Nom        Apart.       Hotel          
+Marc       '302'          Saint Hubert
+Lucien     214          'l hôtel de la poste'
+Jacques    106          'le Paradis'
+
+```
 
 
 
